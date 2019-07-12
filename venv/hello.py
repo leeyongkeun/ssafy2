@@ -8,8 +8,8 @@ from flask import Flask
 from slack import WebClient
 from slackeventsapi import SlackEventAdapter
 
-SLACK_TOKEN = 'xoxb-685325156311-678240608162-DMWiL8E2Fz8DyzMvVL84FGRU'
-SLACK_SIGNING_SECRET = 'f6e2e62b624489509ea37108dfe010b6'
+SLACK_TOKEN = ''
+SLACK_SIGNING_SECRET = ''
 
 app = Flask(__name__)
 # /listening 으로 슬랙 이벤트를 받습니다.
